@@ -1,3 +1,3 @@
 # Preview
 
-![picture](./screenshots/.north.png)
+![north-default](./screenshots/.north.png)
