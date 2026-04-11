@@ -6,6 +6,8 @@
   - original link
   - last update time
 
+each folder is a colletion of the same type of wallpaper.
+
 # Instructions
 
 #TODO
