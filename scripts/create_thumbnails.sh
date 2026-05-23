@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash
+#! nix-shell -p imagemagick
 
 # 创建图片缩略图脚本
 # 用法: ./create_thumbnails.sh [文件名或目录名...]

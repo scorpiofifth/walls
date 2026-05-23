@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash
+#! nix-shell -p imagemagick
 
 # 图片文件类型判断和转换脚本
 # 用法: ./convert_images.sh [-k] [目录名或文件名...]

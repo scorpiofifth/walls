@@ -9,7 +9,7 @@
 ```bash
 ../scripts/convert_images.sh .
 ../scripts/rename_by_sha256.sh .
-../scripts/convert_images.sh .
+../scripts/create_thumbnails.sh .
 ```
 
 3. then, go to the upper folder, and run:
