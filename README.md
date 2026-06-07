@@ -21,3 +21,5 @@ mv ./todo/*.png ./pictures
 
 4. add `.` to every file in `thumbnails`.
 5. add the thumbnails to the `README.md` file.
+
+[Preview](PREVIEW.md)
