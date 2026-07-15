@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash
+#! nix-shell -p imagemagick
 
 function rename_file() {
 	local file="$1"

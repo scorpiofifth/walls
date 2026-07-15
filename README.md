@@ -7,9 +7,9 @@
 2. enter the `todo` folder, run:
 
 ```bash
-../scripts/convert_images.sh .
-../scripts/rename_by_sha256.sh .
-../scripts/create_thumbnails.sh .
+nix-shell ../scripts/convert_images.sh .
+nix-shell ../scripts/rename_by_sha256.sh .
+nix-shell ../scripts/create_thumbnails.sh .
 ```
 
 3. then, go to the upper folder, and run:
@@ -20,6 +20,6 @@ mv ./todo/*.png ./pictures
 ```
 
 4. add `.` to every file in `thumbnails`.
-5. add the thumbnails to the `README.md` file.
+5. add the thumbnails to the `PREVIEW.md` file.
 
 [Preview](PREVIEW.md)
