@@ -1,4 +1,8 @@
-# Instructions
+# Wallpapers
+
+[Preview](PREVIEW.md)
+
+## Instructions
 
 1. download all the wallpapers to `todo` folder.
 2. from the project root, run:
@@ -11,4 +15,15 @@ nix-shell scripts/04_organize_outputs.sh
 nix-shell scripts/05_generate_preview.sh
 ```
 
-[Preview](PREVIEW.md)
+## Tricks
+
+### Download from wallheavn.cc
+
+```bash
+# Thanks to amogh09/wallhaven-sync
+./wallhaven-sync \
+    --wallhaven-api-key "<key>" \
+    --wallpaper-dir todo \
+    --wallhaven-username ScorpioFifth \
+    --collection-label Default
+```

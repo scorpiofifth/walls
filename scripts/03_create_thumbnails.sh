@@ -10,8 +10,8 @@ for file in todo/*; do
 	name=${file##*/}
 	ext=${name##*.}
 	case ${ext,,} in
-		jpg|jpeg|png|gif|bmp|tiff|webp|svg) ;;
-		*) continue ;;
+	jpg | jpeg | png | gif | bmp | tiff | webp | svg) ;;
+	*) continue ;;
 	esac
 	thumb=todo/${name%.*}.preview.$ext
 	[[ -e $thumb ]] || magick "$file" -resize '200x200>' "$thumb"

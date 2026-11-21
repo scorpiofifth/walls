@@ -10,5 +10,5 @@
 	echo
 	find thumbnails -maxdepth 1 -type f -name '.*.preview.png' -printf '%f\n' |
 		LC_ALL=C sort |
-		while IFS= read -r name; do echo "![](./thumbnails/$name)"; done
-} > PREVIEW.md
+		while IFS= read -r name; do echo "![$name](./thumbnails/$name)"; done
+} >PREVIEW.md
